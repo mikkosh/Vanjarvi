@@ -1,0 +1,5 @@
+{
+"require": {
+    "beebotte/bbt_php": "dev-master"
+}
+}

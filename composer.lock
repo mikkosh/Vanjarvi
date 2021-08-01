@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "750edff0cdc0fb2d3867c0ebaf53303e",
+    "packages": [
+        {
+            "name": "beebotte/bbt_php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beebotte/bbt_php.git",
+                "reference": "fa500491833db91acc9dbae36f5f2bbfcdd2d3c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beebotte/bbt_php/zipball/fa500491833db91acc9dbae36f5f2bbfcdd2d3c3",
+                "reference": "fa500491833db91acc9dbae36f5f2bbfcdd2d3c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PhP library for interfacing with Beebotte",
+            "homepage": "https://github.com/beebotte/bbt_php",
+            "keywords": [
+                "WebSockets",
+                "api",
+                "beebotte",
+                "connected",
+                "device",
+                "internet of things",
+                "iot",
+                "pubsub",
+                "realtime",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/beebotte/bbt_php/issues",
+                "source": "https://github.com/beebotte/bbt_php/tree/master"
+            },
+            "time": "2019-07-13T22:41:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "beebotte/bbt_php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
